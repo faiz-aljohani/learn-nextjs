@@ -17,6 +17,13 @@ export default function Page() {
           className="hidden md:block"
           alt="Screenshots of the dashboard project showing desktop version"
         />
+        <Image
+          src="/hero-mobile.png"
+          width={560}
+          height={620}
+          alt="Screenshots of the dashboard project showing mobile version"
+          className="block md:hidden"
+        ></Image>
       </div>
       <div className="flex h-20 shrink-0 items-end rounded-lg bg-blue-500 p-4 md:h-52">
         <AcmeLogo />
